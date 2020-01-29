@@ -1,0 +1,30 @@
+.clients {
+    .container {
+        padding: 51px 0 31px 0;
+    }
+    .title {
+        margin-bottom: 0;
+        font-size: 26px;
+        font-weight: 700;
+        text-align: center;
+        color: #2e2e2e;
+        line-height: 26px;
+        text-transform: uppercase;
+    }
+    .hr {
+        background-color: $main-color;
+        width: 20%;
+        height: 1px;
+        margin: 20px auto 17px auto;
+    }
+    .descr {
+        width: 880px;
+        margin: 0 auto;
+        font-size: 21px;
+        font-weight: 300;
+        line-height: 1.14;
+        text-align: center;
+        color: #2e2e2e;
+        padding-bottom: 37px;
+    }
+}

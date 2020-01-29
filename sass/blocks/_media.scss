@@ -1,0 +1,589 @@
+@media (max-width: 1199px) {
+    .promo {
+        .header {
+            padding-bottom: 65px;
+            &__links {
+                position: absolute;
+                top: 15%;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+        }
+        .headers {
+            &__delivery {
+                font-size: 65px;
+                line-height: 65px;
+            }
+            &__transport {
+                font-size: 40px;
+                line-height: 40px;
+            }
+        }
+    }
+}
+@media (max-width: 991px) {
+    .row_img {
+        display: none;
+    }
+    .row_descr {
+        display: none;
+    }
+    .promo {
+        .container {
+            padding-bottom: 60px;
+        }
+        .header {
+            &__links {
+                top: 16%;
+                padding-top: 5px;
+            }
+        }
+        .row_lap {
+            display: flex;
+        }
+        .headers {
+            .line {
+                width: 700px;
+                .hr {
+                    width: 330px;
+                }
+            }
+            &__logistic {
+                font-size: 23px;
+                line-height: 23px;
+            }
+            &__delivery {
+                font-size: 49px;
+                line-height: 49px;
+            }
+            &__transport {
+                font-size: 30px;
+                line-height: 30px;
+            }
+        }
+    }
+    .work {
+        .container {
+            .descr {
+                width: 100%;
+            }
+            .descr-descr {
+                text-align: center;
+            }
+        }
+    }
+    .price {
+        .descr {
+            width: 100%;
+        }
+    }
+    .consult {
+        &_input {
+            width: 225px;
+        }
+        .icon_wrapper {
+            .line {
+                width: 41%;
+            }
+        }
+    }
+    .clients {
+        .descr {
+            width: 100%;
+        }
+    }
+    .quest {
+        .form_wrapper {
+            width: 100%;
+        }
+        &_input {
+            width: 220px;
+        }
+        &_message {
+            width: 668px;
+        }
+    }
+    .footer {
+        &_top {
+            justify-content: center;
+        }
+    }
+}
+@media (max-width: 767px) {
+    .container .advantages__h2 {
+        font-size: 23px;
+    }
+    .advantages {
+        .container {
+            padding: 40px 0;
+        }
+    }
+    .promo {
+        padding-left: 0;
+        padding-right: 0;
+        .header {
+            padding-bottom: 20px;
+            &__logo {
+                display: none;
+                padding-left: 0;
+            }
+            &__logo-767 {
+                display: block;
+                img {
+                    width: 50px;
+                    height: 50px;
+                }
+                .menu {
+                    display: inline-block;
+                    padding-left: 5px;
+                    font-size: 18px;
+                    font-weight: 700;
+                    color: #ffffff;
+                }
+                &:hover {
+                    cursor: pointer;
+                    .menu {
+                        color: $main-color;
+                    }
+                }
+                transition: 0.5s all;
+                &:active {
+                    .header__links-767 {
+                        left: 0;
+                    }
+                }
+                &:hover {
+                    .header__links-767 {
+                        left: 0;
+                    }
+                }
+            }
+            &__links {
+                display: none;
+            }
+            &__links-767 {
+                position: fixed;
+                top: 0;
+                left: -50%;
+                width: 50%;
+                height: 100vh;
+                padding: 20px 15px;
+                background-color: rgba(0, 0, 0, .8);
+                z-index: 1;
+                &-ul {
+                    flex-direction: column;
+                    padding-left: 0;
+                    li {
+                        padding: 0;
+                        border: none;
+                        text-align: center;
+                        list-style-type: none;
+                        a {
+                            color: white;
+                            font-size: 20px;
+                            line-height: 50px;
+                            cursor: pointer;
+                            &:hover {
+                                border: none;
+                                color: $main-color;
+                                text-decoration: none;
+                            }
+                            &:active {
+                                text-decoration: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .headers {
+            &__logistic {
+                font-size: 20px;
+                line-height: 20px;
+                padding-bottom: 16px;
+            }
+            &__delivery {
+                font-size: 37px;
+                line-height: 37px;
+            }
+            &__transport {
+                font-size: 23px;
+                line-height: 23px;
+            }
+            .line {
+                width: 530px;
+                .hr {
+                    width: 250px;
+                }
+            }
+        }
+        
+    }
+    .work {
+        .container {
+            .title {
+                font-size: 23px;
+                line-height: 23px;
+            }
+            .descr {
+                font-size: 18px;
+                line-height: 18px;
+            }
+        }
+    }
+    .agent {
+        .container {
+            .title {
+                font-size: 23px;
+                line-height: 23px;
+            }
+            .descr {
+                font-size: 18px;
+                line-height: 18px;
+            }
+        }
+    }
+    .price {
+        .title {
+            font-size: 23px;
+            line-height: 23px;
+        }
+        .descr {
+            font-size: 18px;
+            line-height: 18px;
+        }
+    }
+    .consult {
+        min-height: 530px;
+        &_title {
+            font-size: 23px;
+            line-height: 23px;
+        }
+        &_input {
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 10px;
+        }
+        .feed-form {
+            padding: 50px 0;
+        }
+        .button_wrapper {
+            bottom: -73px;
+            left: 48%;
+            margin-bottom: 50px;
+        }
+        .icon_wrapper {
+            img {
+                width: 90px;
+                height: 90px;
+            }
+            .line {
+                width: 39%;
+            }
+        }
+        .feed-form {
+            top: 36%;
+        }
+    }
+    .scheme {
+        &_title {
+            font-size: 23px;
+            line-height: 23px;
+        }
+        &_flex {
+            padding: 0;
+            &-item {
+                width: 250px;
+            }
+        }
+    }
+    .clients {
+        .title {
+            font-size: 23px;
+            line-height: 23px;
+        }
+        .descr {
+            font-size: 18px;
+            line-height: 18px;
+        }
+    }
+    .slider {
+        .slider_inner {
+            width: 100%;
+        }
+    }
+    .quest {
+        &_input {
+            width: 70%;
+            margin-top: 10px;
+            margin-bottom: 0;
+        }
+        &_message {
+            width: 70%;
+            margin-top: 20px;
+        }
+    }
+}
+@media (max-width: 575px) {
+    .container .advantages__h2 {
+        font-size: 20px;
+    }
+    .advantages {
+        .container {
+            padding: 20px 0;
+        }
+    }
+    .promo {
+        .container {
+            padding: 20px 40px 40px 40px;
+            .header {
+                &__feed {
+                    width: 161px;
+                    .button {
+                        display: none;
+                    }
+                }
+            }
+            .headers {
+                &__logistic {
+                    font-size: 18px;
+                    line-height: 18px;
+                }
+                &__delivery {
+                    font-size: 34px;
+                    line-height: 34px;
+                }
+                &__transport {
+                    font-size: 20px;
+                    line-height: 20px;
+                }
+                .line {
+                    width: 100%;
+                    .hr {
+                        width: 45%;
+                    }
+                    .dot {
+                        width: 8px;
+                        height: 8px;
+                    }
+                }
+            }
+        }
+    }
+    .work {
+        .container {
+            .title {
+                font-size: 20px;
+                line-height: 20px;
+            }
+            .descr {
+                font-size: 16px;
+                line-height: 16px;
+            }
+            .work_img {
+                width: 320px; 
+            }
+        }
+    }
+    .agent {
+        .container {
+            .title {
+                font-size: 20px;
+                line-height: 20px;
+            }
+            .descr {
+                font-size: 16px;
+                line-height: 16px;
+            }
+        }
+    }
+    .price {
+        .title {
+            font-size: 20px;
+            line-height: 20px;
+        }
+        .descr {
+            font-size: 16px;
+            line-height: 16px;
+        }
+        &_title {
+            font-size: 14px;
+            line-height: 14px;
+        }
+    }
+    .consult {
+        &_title {
+            font-size: 20px;
+            line-height: 20px;
+        }
+        .icon_wrapper {
+            .line {
+                width: 38%;
+            }
+        }
+        .feed-form {
+            top: 35%;
+            padding-top: 70px;
+        }
+    }
+    .scheme {
+        &_title {
+            font-size: 20px;
+            line-height: 20px;
+        }
+        &_flex {
+            &-item {
+                width: 95%;
+            }
+        }
+    }
+    .clients {
+        .title {
+            font-size: 20px;
+            line-height: 20px;
+        }
+        .descr {
+            font-size: 16px;
+            line-height: 16px;
+        }
+    }
+    .slider .slider_inner .slick-prev {
+        left: 15%;
+    }
+    .slider .slider_inner .slick-next {
+        left: 80%;
+    }
+    .quest {
+        .title {
+            font-size: 18px;
+        }
+    }
+    .footer {
+        &_top {
+            &-fp {
+                margin-bottom: 17px;
+                .descr {
+                    font-size: 15px;
+                    font-weight: 400;
+                }
+            }
+            &-sp {
+                .number {
+                    .phone {
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+        &_bottom {
+            flex-wrap: wrap;
+        }
+    }
+}
+@media (max-width: 420px) {
+    .consult {
+        .feed-form {
+            top: 40%;
+        }
+    }
+}
+@media (max-width: 400px) {
+    .promo {
+        .container {
+            padding: 20px;
+            .header {
+                &__feed {
+                    width: 130px;
+                    &-number {
+                        font-size: 15px;
+                    }
+                }
+                &__links-767 {
+                    &-ul {
+                        li {
+                            a {
+                                font-size: 14px;
+                                line-height: 35px
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .work {
+        .container {
+            .work_img {
+                width: 240px;
+            }
+            .img-descr {
+                width: 240px;
+                margin: 0 auto;
+            }
+        }
+    }
+    .agent {
+        .container {
+            .descr {
+                width: 100%;
+            }
+        }
+    }
+    .consult {
+        &_input {
+            width: 200px;
+        }
+        .icon_wrapper {
+            .consult_icon {
+                width: 90px;
+                height: 90px;
+            }
+        }
+    }
+    .quest {
+        &_input {
+            width: 80%;
+        }
+        &_message {
+            width: 80%;
+        }
+    }
+    .footer {
+        &_top {
+            &-fp {
+                display: block;
+                margin: 0 auto;
+                text-align: center;
+                .logo {
+                    margin-right: 0;
+                    margin-bottom: 15px;
+                }
+                .descr {
+                    margin-bottom: 15px;
+                }
+            }
+            &-sp {
+                display: block;
+                .number {
+                    margin-bottom: 15px;
+                    .footer_quest {
+                        text-align: center;
+                    }
+                    .phone {
+                        text-align: center;
+                    }
+                }
+            }
+        }
+        &_button {
+            margin-left: 0;
+        }
+    }
+}
+@media (max-width: 321px) {
+    .consult {
+        .button_wrapper {
+            left: 46%;
+        }
+    }
+}

@@ -1,0 +1,35 @@
+.container {
+    padding: 57px 0 51px 0;
+}
+.advantages {
+    min-height: 590px;
+    background-color: #f3f3f3;
+    &__h2 {
+        font-size: 26px;
+        font-weight: 700;
+        text-align: center;
+        color: #2e2e2e;
+        padding-bottom: 30px;
+        margin-bottom: 0;
+        text-transform: uppercase;
+    }
+    &__icon {
+        padding-right: 15px;
+        padding-top: 8px;
+    }
+    &__col {
+        display: flex;
+        align-items: flex-start;
+        padding-bottom: 36px;
+    }
+    &__h3 {
+        font-size: 16px;
+        font-weight: 700;
+        color: $main-color;
+    }
+    &__descr {
+        font-size: 14px;
+        font-weight: 300;
+        color: #3a3a3a;
+    }
+}

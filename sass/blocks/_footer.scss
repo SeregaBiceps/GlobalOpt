@@ -1,0 +1,67 @@
+.footer {
+    min-height: 201px;
+    background-color: #25333c;
+    .container {
+        padding: 24px 0 28px 0;
+    }
+    &_top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        padding-bottom: 26px;
+        &-fp {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .logo {
+                width: 67px;
+                height: 71px;
+                margin-right: 44px;
+            }
+            .descr {
+                font-size: 16px;
+                font-weight: 700;
+                color: #ffffff;
+            }
+        }
+        &-sp {
+            display: flex;
+            justify-content: space-between;
+            .number {
+                .footer_quest {
+                    font-size: 14px;
+                    font-weight: 300;
+                    text-align: right;
+                    color: #ffffff;
+                }
+                .phone {
+                    font-size: 19px;
+                    font-weight: 700;
+                    text-align: right;
+                    color: #ffffff;
+                }
+            }
+        }
+    }
+    &_button {
+        margin-left: 18px;
+    }
+    &_bottom {
+        display: flex;
+        justify-content: space-between;
+        &-a {
+            font-size: 13px;
+            font-weight: 300;
+            text-align: center;
+            color: rgba(255, 255, 255, 0.6);
+            &:hover {
+                color: #ec644b;
+            }
+        }
+    }
+    &_hr {
+        margin-bottom: 30px;
+        border-bottom: none;
+    }
+}

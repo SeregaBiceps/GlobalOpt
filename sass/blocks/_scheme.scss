@@ -1,0 +1,72 @@
+.scheme {
+    min-height: 454px;
+    background-color: #f3f3f3;
+    .container {
+        padding: 51px 0 46px 0;
+    }
+    .row {
+        align-items: top;
+    }
+    &_title {
+        font-size: 26px;
+        font-weight: 700;
+        text-align: center;
+        text-transform: uppercase;
+        color: #2e2e2e;
+        padding-bottom: 29px;
+        margin-bottom: 0;
+    }
+    &_col {
+        margin: 0 auto;
+        text-align: center;
+        padding-bottom: 26px;
+        &-img1 {
+            padding-bottom: 12px;
+        }
+        &-img2 {
+            padding-bottom: 7px;
+        }
+        &-img3 {
+            padding-bottom: 12px;
+        }
+        &-img4 {
+            padding-bottom: 9px;
+        }
+        &-title {
+            font-size: 16px;
+            font-weight: 700;
+            text-align: center;
+            color: $main-color;
+        }
+        &-descr {
+            font-size: 14px;
+            font-weight: 300;
+            text-align: center;
+            color: #3a3a3a;
+        }
+    }
+    &_flex {
+        display: flex;
+        text-align: center;
+        justify-content: space-around;
+        padding: 0 65px;
+        flex-wrap: wrap;
+        &-item {
+            width: 257px;
+            padding-bottom: 26px;
+        }
+        &-title {
+            font-size: 16px;
+            font-weight: 700;
+            text-align: center;
+            color: $main-color;
+            padding-top: 12px;
+        }
+        &-descr {
+            font-size: 14px;
+            font-weight: 300;
+            text-align: center;
+            color: #3a3a3a;
+        }
+    }
+}

@@ -1,0 +1,39 @@
+.slider {
+    padding-bottom: 65px;
+    .slider_inner {
+        width: 601px;
+        margin: 0 auto;
+        .slider_el {
+            img {
+                margin: 0 auto;
+                padding-bottom: 19px;
+            }
+            text-align: center;
+            .name {
+                font-size: 18px;
+                font-weight: 700;
+                padding-bottom: 5px;
+            }
+            .comment {
+                font-size: 14px;
+                font-weight: 300;
+                color: #3a3a3a;
+                line-height: 1.57;
+            }
+        }
+        .slick-arrow {
+            position: absolute;
+            border: none;
+            background-color: rgba(255, 255, 255, 0);
+            top: 12%;
+            z-index: 5;
+            outline: none;
+        }
+        .slick-prev {
+            left: 31%;
+        }
+        .slick-next {
+            left: 64%;
+        }
+    }
+}
